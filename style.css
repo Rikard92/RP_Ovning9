@@ -1,0 +1,31 @@
+
+html,
+body {
+  height: 98%;
+  background-color: rgb(250, 243, 183);
+}
+
+li.ToDoItem {
+   width: 50%;
+    background-color: rgb(250, 243, 183);
+  }
+li.NoDoItem {
+width: 50%;
+    background-color: rgb(126, 235, 162);
+    text-decoration: line-through;
+}
+
+.content {
+  min-height: 98%;
+  background-color: rgb(255, 255, 255);
+}
+
+
+footer{
+    position: relative;
+    margin-top: -40px;
+    /* negative value of footer height */
+    min-height: 2%;
+    clear: both;
+    background-color: rgb(175, 216, 255);
+}
